@@ -4,6 +4,8 @@ class Env {
 		.MONGODB_URI as string;
 	public static readonly JWT_SECRET: string = process.env
 		.JWT_SECRET as string;
+	public static readonly FRONTEND_URL: string = process.env
+		.FRONTEND_URL as string;
 }
 
 export default Env;
